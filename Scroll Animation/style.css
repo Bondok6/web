@@ -1,0 +1,19 @@
+div {
+	position: relative;
+	top: 80px;
+	opacity: 0;
+	height: 20vh;
+	width: 40%;
+	background-color: #555;
+	padding: 1rem;
+	margin: 5rem 5rem 50vh 5rem;
+
+	transition: 0.5s ease-out;
+}
+
+.scroll {
+	top: 0;
+	opacity: 1;
+	transform: translateY(-60px);
+	transition: 0.5 ease-in;
+}
