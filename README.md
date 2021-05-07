@@ -1,2 +1,2 @@
 # Web
-Some useful section
+Some useful sections
