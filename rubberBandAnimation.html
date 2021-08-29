@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #1d1d1d;
+      }
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h2 {
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count: 1;
+      }
+
+      h2:hover {
+        animation-name: rubberBand;
+        color: cyan;
+      }
+
+      @keyframes rubberBand {
+        from {
+          transform: scale(1, 1);
+        }
+
+        30% {
+          transform: scale(1.25, 0.75);
+        }
+
+        40% {
+          transform: scale(0.75, 1.25);
+        }
+
+        50% {
+          transform: scale(1.15, 0.85);
+        }
+
+        65% {
+          transform: scale(.95, 1.05);
+        }
+
+        75% {
+          transform: scale(1.05, .95);
+        }
+
+        to {
+          transform: scale(1, 1);
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h2>d</h2>
+    </div>
+  </body>
+
+</html>
