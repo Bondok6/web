@@ -1,2 +1,2 @@
-# WEB
+# WEB Tips
 Some useful sections
